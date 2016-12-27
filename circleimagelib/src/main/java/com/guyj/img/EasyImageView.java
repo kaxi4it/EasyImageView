@@ -1,4 +1,4 @@
-package com.guyj;
+package com.guyj.img;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,6 +16,8 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.widget.ImageView;
+
+import com.guyj.img.R;
 
 /**
  * 圆形、圆角图片

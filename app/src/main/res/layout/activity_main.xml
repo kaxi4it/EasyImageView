@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.easy.easycircleimageview.MainActivity">
-    <com.guyj.EasyImageView
+    tools:context="com.easy.MainActivity">
+    <com.guyj.img.EasyImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@mipmap/aaa"
@@ -15,7 +15,7 @@
         app:border_width="2dp"
         app:border_color="@color/colorPrimary"
         />
-    <com.guyj.EasyImageView
+    <com.guyj.img.EasyImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@mipmap/aaa"
@@ -24,7 +24,7 @@
         app:border_width="2dp"
         app:border_color="@color/colorPrimary"
         />
-    <com.guyj.EasyImageView
+    <com.guyj.img.EasyImageView
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:src="@mipmap/aaa"
