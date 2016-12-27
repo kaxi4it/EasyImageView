@@ -94,7 +94,7 @@ public class EasyImageView extends ImageView {
         type = a.getInt(R.styleable.EasyImageView_type, TYPE_OVAL);
         mBorderColor = a.getColor(R.styleable.EasyImageView_border_color, Color.WHITE);
         mBorderWidth = a.getDimensionPixelOffset(R.styleable.EasyImageView_border_width, 0);
-        mCornerRadius = a.getDimensionPixelOffset(R.styleable.EasyImageView_corner_radius, dp2px(10));
+        mCornerRadius = a.getDimensionPixelOffset(R.styleable.EasyImageView_corner_radius, 0);
         mLeftTopCornerRadius = a.getDimensionPixelOffset(R.styleable.EasyImageView_leftTop_corner_radius, 0);
         mLeftBottomCornerRadius = a.getDimensionPixelOffset(R.styleable.EasyImageView_leftBottom_corner_radius, 0);
         mRightTopCornerRadius = a.getDimensionPixelOffset(R.styleable.EasyImageView_rightTop_corner_radius, 0);
